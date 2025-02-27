@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolón Bolón</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; }
+        header { background-color: #ffcc00; padding: 20px; font-size: 24px; }
+        section { padding: 20px; }
+        .menu-item { margin: 10px; display: inline-block; }
+        .menu-item img { width: 150px; height: 150px; border-radius: 10px; }
+        footer { background-color: #333; color: white; padding: 10px; }
+        .button { background-color: #ff6600; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bolón Bolón</h1>
+        <p>El sabor auténtico del bolón ecuatoriano</p>
+    </header><section>
+    <h2>Menú</h2>
+    <div class="menu-item">
+        <img src="bolon-queso.jpg" alt="Bolón de Queso">
+        <p>Bolón de Queso - $3.00</p>
+    </div>
+    <div class="menu-item">
+        <img src="bolon-chicharron.jpg" alt="Bolón de Chicharrón">
+        <p>Bolón de Chicharrón - $3.50</p>
+    </div>
+    <div class="menu-item">
+        <img src="bolon-mixto.jpg" alt="Bolón Mixto">
+        <p>Bolón Mixto - $4.00</p>
+    </div>
+</section>
+
+<section>
+    <h2>Ubicación</h2>
+    <p>Estamos en [Tu dirección aquí]</p>
+    <a href="https://wa.me/123456789" class="button">Hacer Pedido</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 Bolón Bolón - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
